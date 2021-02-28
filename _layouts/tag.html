@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<section class="posts">
+  <div class="flex-row-between">
+    <a onclick="backButton()">« back</a>
+    <div></div>
+  </div>
+  <h1 class="title">Tag #{{page.tag}}</h1>
+  <ul>
+    {% for post in site.posts %} {% if post.tags contains page.tag %}
+    <li>
+      <a class="post" href="{{ post.url }}">{{ post.title }}</a
+      ><time datetime="{{ post.date | date_to_xmlschema }}"
+        >{{ post.date | date: "%b %-d, %Y" }}</time
+      >
+    </li>
+    {% endif %} {% endfor %}
+  </ul>
+</section>
