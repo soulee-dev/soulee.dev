@@ -293,7 +293,6 @@ header ul {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 0.5rem;
 }
 
 .posts li a,
@@ -376,4 +375,8 @@ figcaption {
 
 #intro > h1.title {
   margin-top: 1.5rem;
+}
+
+h3.summary {
+  margin-bottom: 0.5rem;
 }

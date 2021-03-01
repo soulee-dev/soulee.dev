@@ -14,7 +14,7 @@ layout: default
     </button>
   </div>
   <p>안녕하세요!</p>
-  <a href="https://google.com">tags</a>
+  <a href="/tags">tags</a>
   <a href="/about">about</a>
 </section>
 
@@ -28,6 +28,7 @@ layout: default
         >{{ post.date | date: "%m월 %d일" }}</time
       >
     </li>
+    <h3 class="summary">{{post.summary}}</h3>
     {% endfor %}
   </ul>
 </section>
