@@ -25,7 +25,7 @@ layout: default
     <li>
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       <time datetime="{{ post.date | date_to_xmlschema }}"
-        >{{ post.date | date: "%m월 %d일" }}</time
+        >{{ post.date | date: "%Y %m %d" }}</time
       >
     </li>
     <h3 class="summary">{{post.summary}}</h3>

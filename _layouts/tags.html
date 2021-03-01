@@ -5,17 +5,26 @@ layout: default
 <section class="posts">
   <div class="flex-row-between">
     <a onclick="backButton()">« back</a>
+    <button
+    id="theme-toggle"
+    onclick="modeSwitcher()"
+    aria-label="Change Theme"
+  >
     <div></div>
   </div>
   <h1 class="title">{{ page.title }}</h1>
   {% assign tags = site.tags | sort %}
-  <ul>
-    {% for tag in tags %}
+  {% for tag in tags %}
+  <h2 style="margin-bottom:0;">{{ tag[0] | replace:'-', ' ' }}({{ tag | last | size }})</h2>
+  <ul class="tags">
+    {% for post in site.posts %} {% if post.tags contains tag[0] %}
     <li>
-      <a href="/tag/{{ tag | first | slugify }}/"
-        >{{ tag[0] | replace:'-', ' ' }}({{ tag | last | size }})</a
+      <a class="post" href="{{ post.url }}">{{ post.title }}</a
+      ><time datetime="{{ post.date | date_to_xmlschema }}"
+        >{{ post.date | date: "%Y %m %d" }}</time
       >
     </li>
-    {% endfor %}
+    {% endif %} {% endfor %} 
   </ul>
+  {% endfor %}
 </section>
