@@ -10,6 +10,19 @@ author:
   url: #yoururl
 permalink: pretty
 
+# --- SEO SETTING ---
+lang: ko_KR
+twitter:
+  username: #
+  card: summary
+
+facebook:
+  app_id: #
+  publisher: #
+  admins: #
+
+# --- SEO SETTING ---
+
 baseurl: ""
 
 highlighter: rouge

@@ -6,11 +6,8 @@
 
   <title>
     {% if page.tag or page.title %} {% if page.tag %} {{ page.tag | escape }} {%
-    else %} {{ page.title | escape }} {% endif %} - {% endif %} {% if paginator
-    and paginator.page and paginator.total_pages > 1 and paginator.page > 1 %}
-    Page {{ paginator.page }} of {{ paginator.total_pages }} - {% endif %} {{
-    site.title | escape }} {% unless page.tag or page.title %} - {{
-    site.description | escape }} {% endunless %}
+    else %} {{ page.title | escape }} {% endif %} {% else %} {{site.title |
+    escape }}{% endif %}
   </title>
 
   <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.png" />
@@ -94,5 +91,19 @@
         window.location.href = "{{site.url}}/";
       }
     }
+  </script>
+
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-G786TEZ5M3"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-G786TEZ5M3");
   </script>
 </head>
