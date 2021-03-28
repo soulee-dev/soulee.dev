@@ -24,3 +24,11 @@ jobs:
         with:
           provider: 'github'
           token: ${{ secrets.GH_TOKEN }} # It's your Personal Access Token(PAT)
+          
+      - name: Running Page Speed Insights
+        uses: jakepartusch/psi-action@v1.1
+        id: psi
+        with:
+          url: "https://soulyi.io"
+          threshold: 70
+          strategy: mobile
