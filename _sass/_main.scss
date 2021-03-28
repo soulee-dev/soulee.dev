@@ -384,3 +384,8 @@ figcaption {
 #intro > h1.title {
   margin-top: 1.5rem;
 }
+
+mjx-c::before,
+mjx-c::after {
+  background-color: unset;
+}
