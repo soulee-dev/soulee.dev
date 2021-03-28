@@ -385,7 +385,14 @@ figcaption {
   margin-top: 1.5rem;
 }
 
+// mathjax
 mjx-c::before,
 mjx-c::after {
   background-color: unset;
+}
+
+// mermaid
+g.label {
+  background-color: unset;
+  font-family: "D2Coding", monospace;
 }
