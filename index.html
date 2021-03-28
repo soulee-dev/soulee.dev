@@ -2,6 +2,15 @@
 layout: default
 ---
 
+<head>
+  <script type="module">
+    import "https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate";
+
+    const el = document.createElement("pwa-update");
+    document.body.appendChild(el);
+  </script>
+</head>
+
 <section id="intro">
   <div class="flex-row-between">
     <h1>안녕하세요! 👋</h1>
