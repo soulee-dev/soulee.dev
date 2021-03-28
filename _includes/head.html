@@ -11,6 +11,7 @@
   </title>
 
   <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.png" />
+  <link rel="apple-touch-icon" href="/assets/icon192.png" />
   <link
     rel="alternate"
     type="application/atom+xml"
@@ -29,6 +30,7 @@
     href="//cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-subset.css"
     rel="stylesheet"
   />
+  <link rel="manifest" href="manifest.json" />
   <link rel="stylesheet" href="/assets/css/syntax.css" />
 
   <style>
@@ -105,5 +107,12 @@
     gtag("js", new Date());
 
     gtag("config", "G-G786TEZ5M3");
+  </script>
+
+  <script>
+    import "https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate";
+
+    const el = document.createElement("pwa-update");
+    document.body.appendChild(el);
   </script>
 </head>
