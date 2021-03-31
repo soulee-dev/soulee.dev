@@ -328,10 +328,6 @@ time {
   margin-bottom: 0;
 }
 
-.post > time {
-  margin-bottom: 2rem;
-}
-
 main {
   display: flex;
   max-width: 47rem;
@@ -388,11 +384,16 @@ figcaption {
 // mathjax
 mjx-c::before,
 mjx-c::after {
-  background-color: unset;
+  background-color: transparent;
 }
 
 // mermaid
 g.label {
-  background-color: unset;
+  background-color: transparent;
   font-family: "D2Coding", monospace;
+}
+
+.post > h1 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
 }
