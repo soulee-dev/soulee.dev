@@ -89,13 +89,13 @@
     function backButton() {
       if (document.referrer) {
         if (window.history.length <= 1) {
-          window.location.href = "{{site.url}}/";
+          window.location.href = "{{ site.url }}/";
         } else {
           window.history.back();
         }
       } else {
-        console.log("{{site.url}}/");
-        window.location.href = "{{site.url}}/";
+        console.log("{{ site.url }}/");
+        window.location.href = "{{ site.url }}/";
       }
     }
   </script>
