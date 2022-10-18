@@ -1,14 +1,16 @@
-site: Blog Soulee
+site: Soul Lee
 url: https://soulee.dev
-title: Blog Soulee
-description: Simple and minimalistic jekyll blogging theme.
+title: Soul Lee
+description: Developers can change the world
 
 author:
-  name: #yourusername
+  name: soulee
   avatar:
   email: alus20x@gmail.com
   url: #yoururl
 permalink: pretty
+
+utterances: alus20x/blog
 
 # --- SEO SETTING ---
 lang: ko_KR
