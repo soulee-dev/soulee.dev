@@ -1,4 +1,4 @@
-name: Build and Deploy to Github Pages
+name: Pagespeed Insights Github Pages
 
 on:
   push:
