@@ -85,19 +85,6 @@
         setTheme("dark");
       }
     }
-
-    function backButton() {
-      if (document.referrer) {
-        if (window.history.length <= 1) {
-          window.location.href = "{{ site.url }}/";
-        } else {
-          window.history.back();
-        }
-      } else {
-        console.log("{{ site.url }}/");
-        window.location.href = "{{ site.url }}/";
-      }
-    }
   </script>
 <noscript>
  For full functionality of this site it is necessary to enable JavaScript.

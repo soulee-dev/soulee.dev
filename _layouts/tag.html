@@ -3,10 +3,6 @@ layout: default
 ---
 
 <section class="posts">
-  <div class="flex-row-between">
-    <a onclick="backButton()">« back</a>
-    <div></div>
-  </div>
   <h1 class="title">Tag #{{page.tag}}</h1>
   <ul>
     {% for post in site.posts %} {% if post.tags contains page.tag %}
