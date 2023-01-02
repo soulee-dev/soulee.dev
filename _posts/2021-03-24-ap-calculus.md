@@ -4,7 +4,7 @@ title: ap 미적분 정리 (1)
 description: ap 미적분 정리 (1)
 summary: 용어, 기본 원리 정리 (1)
 comments: true
-latex: true
+mathjax: true
 tags: [math]
 ---
 
