@@ -21,9 +21,11 @@ ccc
 ddd
 ```
 
-이라는 내용을 갖은 파일이 있다고 가정해보자
+이라는 내용을 가진 파일이 있다고 가정해보자
 
 ```c
+#include <fcntl.h>
+#include <stdio.h>
 #include <unistd.h>
 #include "get_next_line.h"
 
