@@ -6,8 +6,8 @@ description: Developers can change the world
 author:
   name: soulee
   avatar:
-  email: alus20x@gmail.com
-  url: #yoururl
+  email: me@soulee
+  url: soulee.dev
 permalink: pretty
 
 # --- SEO SETTING ---
@@ -23,7 +23,7 @@ facebook:
 
 # --- SEO SETTING ---
 
-baseurl: ""
+baseurl: "https://soulee.dev"
 
 highlighter: rouge
 
