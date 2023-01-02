@@ -4,7 +4,7 @@ title: 내가 jekyll을 선택한 이유
 description: 왜 jekyll인가?
 summary: 왜 jekyll인가?
 comments: true
-chart: true
+mermaid: true
 tags: [coding]
 ---
 
