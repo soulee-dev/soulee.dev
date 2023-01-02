@@ -4,7 +4,7 @@ title: (42서울) Get Next Line (GNL) 정리
 description: 쉽지 않은 get_next_line 정리 해봅시다
 summary: 쉽지 않은 get_next_line 정리 해봅시다
 comments: true
-meraid: true
+mermaid: true
 tags: [42seoul]
 ---
 
