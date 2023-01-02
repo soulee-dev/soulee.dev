@@ -93,7 +93,7 @@ static으로 선언한 text_buffer에 파일 뒷부분의 내용을 넣어놓아
 
 # Flowchart
 
-<div class="mermaid">
+```mermaid
 flowchart TD;
 	A[Start] --> C{"BUFFER_SIZE <= 0 || fd < 0 || fd > OPEN_MAX"};
 	C --> |true| D[malloc buffer];
@@ -107,6 +107,7 @@ flowchart TD;
 	J --> |true| K["read(fd, buffer, BUFFER_SIZE)"];
 	J --> |false| T[break];
 	K --> F;
+```
 
 # 마지막으로
 
