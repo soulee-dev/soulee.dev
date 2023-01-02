@@ -54,11 +54,12 @@ next.js에서 제공하는 code splitting이나, SEO, i18n이 부럽고, jekyll 
 
 # 구조
 
-<div class="mermaid">
+```mermaid
 graph LR;
     A[Github] --> B[Github Actions];
     B --> C[jekyll-deploy-action];
     C --> D[CloudFlare];
-            
-</div>
+
+```
+
 Github Actions로 파일을 생성하고, Cloudflare를 사용해서 속도를 올리고 있습니다.
