@@ -4,8 +4,7 @@ title: 기술 문서 번역하기
 description: 번역할때 어떤 과정을 거칠까?
 summary: 번역할때 어떤 과정을 거칠까?
 comments: true
-mermaid: true
-tags: [math]
+tags: [translation]
 ---
 
 저는 다양한 기술 문서들과, 유튜브 영상들을 취미로 번역해 오고 있었습니다. 하지만 최근 uBlock Origin의 문서를 번역하던중, 체계적인 틀이 존재하지 않는것 같아서 이번 기회에 정리해보게 되었습니다.
