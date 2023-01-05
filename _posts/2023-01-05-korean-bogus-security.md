@@ -1,21 +1,24 @@
 ---
 layout: post
 title: 한국 금융 보안 프로그램의 실태
-description: 많은 설치를 요구하는 보안 프로그램들, 과연 제 역할을 하고 있을까?
-summary: 많은 설치를 요구하는 보안 프로그램들, 과연 제 역할을 하고 있을까?
+description: 많은 설치를 요구하는 한국의 보안 프로그램들, 과연 제 역할을 하고 있을까?
+summary: 많은 설치를 요구하는 한국의 보안 프로그램들, 과연 제 역할을 하고 있을까?
 comments: true
 tags: [translation]
 ---
 
 # 한 글이 일으킨 파장
 [원본 글](https://palant.info/2023/01/02/south-koreas-online-security-dead-end/)
+
 [Hacker News](https://news.ycombinator.com/item?id=34231364)
+
 [번역본 - woojinkim.org](https://www.woojinkim.org/wiki/spaces/me/pages/733085820/South+Korea+s+online+security+dead+end)
+
 [막다른 골목에 다다른 한국의 온라인 보안 실태 - GeekNews](https://news.hada.io/topic?id=8176)
 
 저는 개발자로써, 맥 컴퓨터를 사용하며 뱅킹을 주로 이용하는데 항상 의문이 많았습니다. '왜 우리나라는 아직도 Plugin에서 벗어나지 못했을까?' 그러던 와중 개발자 분들께 많이 회자되고 있는 한 글의 댓글 내용들을 한번 정리 해보았습니다. 기성 은행권에서는 웹 표준을 준수하는 보안 체계를 만들면 좋겠습니다.
 
-뜻을 그대로 전달하기 위해 어느정도 의역이 들어가있으니 참고 바랍니다. 원본의 글들이 워낙 분량이 많아 제가 최대한 요약을 한 내용입니다. 가능하다면 직접 들어가서 살펴 보시는것이 좋을것 같습니다 원본의 댓글 출처를 남겨 놓았습니다.
+뜻을 그대로 전달하기 위해 어느정도 의역이 들어가있으니 참고 바랍니다. 원본의 글들이 워낙 분량이 많아 제가 최대한 요약을 한 내용입니다. 가능하다면 직접 들어가서 살펴 보시는것이 좋을것 같습니다. 원본의 댓글 출처를 남겨 놓았습니다.
 
 오역한 부분이 있거나, 어색한 점이 있다면 댓글 혹은 이메일 [me@soulee.dev](mailto:me@soulee.dev) 로 말씀해주시면 최대한 빨리 반영 하도록 하겠습니다.
 
