@@ -2,7 +2,7 @@
 layout: post
 title: 네이버에서 CDKey를 구매하지 마세요
 description: 어디서 왔는지도 모르는 찝찝한 CDKey, 계정들
-summary: 디서 왔는지도 모르는 찝찝한 CDKey, 계정들
+summary: 어디서 왔는지도 모르는 찝찝한 CDKey, 계정들
 comments: true
 tags: [game]
 ---
